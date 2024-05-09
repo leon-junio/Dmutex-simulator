@@ -12,7 +12,9 @@ This is a simulation program for a distributed mutual exclusion (DMutex) algorit
 
 ## Download the Tool
 
-You can download the tool using release page [here](https://github.com/leon-junio/Dmutex-simulator/releases). Or directly download the latest version: [1.0.0](https://github.com/leon-junio/Dmutex-simulator/releases/download/1.0.0/DMutexSimulator.jar)
+You can download the tool using release page [here](https://github.com/leon-junio/Dmutex-simulator/releases). 
+
+Or directly download the latest version: [1.0.0](https://github.com/leon-junio/Dmutex-simulator/releases/download/1.0.0/DMutexSimulator.jar)
 
 ## Usage
 
