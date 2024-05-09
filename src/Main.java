@@ -10,7 +10,7 @@ import java.util.Map;
  * processes and a given execution time. The program will start the processes as
  * Runnable threads and will interrupt them after the given execution time.
  * 
- * @version 1.0
+ * @version 1.0.1
  * @author https://github.com/leon-junio
  */
 public class Main {

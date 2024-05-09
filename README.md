@@ -1,6 +1,6 @@
 # DMutex Simulator
 
-This is a simulation program for a distributed mutual exclusion (DMutex) algorithm. It uses the DMutex class and the Process class to simulate the algorithm with a given number of processes and a given execution time. The program starts the processes as Runnable threads and interrupts them after the given execution time. The processes communicate with each other using the DMutex class to request and release the critical section, it uses a priority queue to manage the requests to enter the critical section.
+This is a simulation program for a distributed mutual exclusion (DMutex) algorithm. It uses the DMutex class and the Process class to simulate the algorithm with a given number of processes and a given execution time. The program starts the processes as Runnable threads and interrupts them after the given execution time. The processes communicate with each other using the DMutex class to request and release the critical section, it uses a queue to manage the requests to enter the critical section.
 
 ## Features
 
@@ -14,7 +14,7 @@ This is a simulation program for a distributed mutual exclusion (DMutex) algorit
 
 You can download the tool using release page [here](https://github.com/leon-junio/Dmutex-simulator/releases). 
 
-Or directly download the latest version: [1.0.0](https://github.com/leon-junio/Dmutex-simulator/releases/download/1.0.0/DMutexSimulator.jar)
+Or directly download the latest version: [1.0.1](https://github.com/leon-junio/Dmutex-simulator/releases/download/1.0.1/DMutexSimulator.jar)
 
 ## Usage
 
@@ -79,4 +79,4 @@ This program was created by [Leon Junio](https://github.com/leon-junio).
 
 ## Version
 
-This is version 1.0 of the DMutex Simulation Program.
+This is version 1.0.1 of the DMutex Simulation Program.
