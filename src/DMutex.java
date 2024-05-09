@@ -1,6 +1,6 @@
 import java.util.HashMap;
 import java.util.Map;
-import java.util.PriorityQueue;
+import java.util.LinkedList;
 import java.util.Queue;
 
 public class DMutex {
@@ -13,7 +13,7 @@ public class DMutex {
     public DMutex(int processLength) {
         this.processLength = processLength;
         this.permissionMatrix = new boolean[processLength][processLength];
-        this.queueProcessWaiting = new PriorityQueue<>();
+        this.queueProcessWaiting = new LinkedList<>();
         this.criticalSectionReport = new HashMap<>();
         for (int i = 0; i < processLength; i++) {
             for (int j = 0; j < processLength; j++) {
